@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+
+.First {
+    height: 80px;
+    width: 80px;
+    background-color: lightgray;
+    border: solid 10px black;
+    border-radius: 50px;
+    transition: all 0.5s;
+    font-size: 10px;
+}
+.First:hover {
+    cursor: pointer;
+    background-color: grey;
+}
+
+.First:active {
+    background-color: grey;
+    height: 40px;
+    width: 40px;
+    border-width: 5px;
+    box-shadow: 0px 0px 10px black;
+    align-items: center;
+    font-size: 5px;
+}
+
+.Counter {
+    font-weight: bold;
+    text-align: center;
+    
+}
+
+</style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clicking simulator</title>
+
+</head>
+<body>
+    <button class="First" id="main">
+        <h1 id="count" class="Counter">1</h1>
+    </button>
+    
+       <script src="index.js"></script>
+</body>
+</html>
